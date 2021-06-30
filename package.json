@@ -1,0 +1,31 @@
+{
+  "name": "softwiresupportbank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhoebeJackson/SoftwireSupportBank.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhoebeJackson/SoftwireSupportBank/issues"
+  },
+  "homepage": "https://github.com/PhoebeJackson/SoftwireSupportBank#readme",
+  "devDependencies": {
+    "@types/luxon": "^1.27.0",
+    "ts-node": "^10.0.0"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "log4js": "^6.3.0",
+    "luxon": "^1.27.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
